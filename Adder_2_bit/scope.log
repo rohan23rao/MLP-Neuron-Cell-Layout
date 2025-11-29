@@ -1,0 +1,29 @@
+ScopeSigMgr:loadpffile /filespace/r/rrao8/ece555/ECE555_2/Adder_2_bit/Adder_2_bit_test.tr0 1 openonly
+# PF:1
+wm geometry .sigmgr._PF:1 290x358+960+600
+pf:read PF:1 v(a<0>) v(a<1>) v(b<0>) v(b<1>) v(cin)
+# WF:1:1 WF:1:2 WF:1:3 WF:1:4 WF:1:5
+Graph addsignal {WF:1:1 WF:1:2 WF:1:3 WF:1:4 WF:1:5} -region {new new new new new} -yview {real(y) real(y) real(y) real(y) real(y)} -xview {real(x) real(x) real(x) real(x) real(x)} -tracehi {2 2 2 2 2}
+# Signal0 Signal1 Signal2 Signal3 Signal4
+Mdi:Resize 820 655
+Mdi:Move 5 5
+wm geometry .sigmgr 467x236+414+197
+wm geometry .sigmgr 467x236+481+211
+wm geometry .sigmgr 467x236+551+221
+wm geometry .sigmgr 467x236+635+233
+wm geometry .sigmgr 467x236+725+245
+wm geometry .sigmgr 467x236+801+255
+wm geometry .sigmgr 467x236+859+259
+wm geometry .sigmgr 467x236+898+261
+wm geometry .sigmgr 467x236+913+261
+wm geometry .sigmgr 467x236+914+261
+wm geometry .sigmgr 467x236+932+258
+wm geometry .sigmgr 467x236+1019+254
+wm geometry .sigmgr 467x236+1063+254
+wm geometry .sigmgr 467x236+1104+254
+wm geometry .sigmgr 467x236+1113+254
+wm geometry .sigmgr 467x236+1115+254
+pf:read PF:1 v(s<0>) v(s<1>)
+# WF:1:6 WF:1:7
+Graph addsignal {WF:1:6 WF:1:7} -region {new new} -yview {real(y) real(y)} -xview {real(x) real(x)} -tracehi {2 2}
+# Signal5 Signal6

@@ -1,0 +1,32 @@
+* "simulator" "PrimeSim HSPICE"
+* "version" "V-2023.12-SP2 linux64"
+* "format" "HSP"
+* "rundate" "11:34:55 12/04/2024 "
+* "netlist" "adder_test.sp "
+* "runtitle" ".global vdd vss"
+* time =  0.0000000e+00   
+* temperature =  2.5000000e+01   
+*** BEGIN: Saved Operating Point ***                     
+.option 
++ gmindc= 1.0000000e-18   
+.nodeset
++ a = 0.0000000e+00   
++ b = 0.0000000e+00   
++ cin = 0.0000000e+00   
++ cout = 8.9999955e-01   
++ out = 0.0000000e+00   
++ s = 1.5507468e-07   
++ vdd = 9.0000000e-01   
++ vss = 0.0000000e+00   
++ xi0.net1 = 8.9999985e-01   
++ xi0.net10 = 4.5658597e-02   
++ xi0.net11 = 1.3993963e-02   
++ xi0.net13 = 8.9999547e-01   
++ xi0.net2 = 8.9999978e-01   
++ xi0.net3 = 3.1668951e-02   
++ xi0.net5 = 2.0303413e-02   
++ xi0.net6 = 9.0000000e-01   
++ xi0.net7 = 8.3781400e-01   
++ xi0.net8 = 8.9999849e-01   
++ xi0.net9 = 8.9999698e-01   
+***   END: Saved Operating Point ***                     

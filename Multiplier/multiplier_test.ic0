@@ -1,0 +1,40 @@
+* "simulator" "PrimeSim HSPICE"
+* "version" "V-2023.12-SP2 linux64"
+* "format" "HSP"
+* "rundate" "20:19:33 12/02/2024 "
+* "netlist" "multiplier_test.sp "
+* "runtitle" "**multiplier test"
+* time =  0.0000000e+00   
+* temperature =  2.5000000e+01   
+*** BEGIN: Saved Operating Point ***                     
+.option 
++ gmindc= 1.0000000e-18   
+.nodeset
++ mult_out = 0.0000000e+00   
++ net4 = 2.3316022e-07   
++ net5 = 2.3271753e-07   
++ net6 = 2.3066131e-07   
++ net7 = 2.3066304e-07   
++ net8 = 3.1127008e-07   
++ net9 = 8.9999989e-01   
++ vdd = 9.0000000e-01   
++ vss = 0.0000000e+00   
++ w<0> = 0.0000000e+00   
++ w<1> = 9.0000000e-01   
++ x<0> = 0.0000000e+00   
++ x<1> = 0.0000000e+00   
++ y<0> = 2.2963054e-07   
++ y<1> = 1.4408874e-06   
++ xi5.net1 = 8.9999992e-01   
++ xi5.net2 = 3.1668957e-02   
++ xi4.net1 = 8.9999971e-01   
++ xi4.net2 = 8.6138986e-01   
++ xi3.net1 = 8.9999971e-01   
++ xi3.net2 = 8.6138983e-01   
++ xi2.net1 = 8.9999992e-01   
++ xi2.net2 = 3.1669116e-02   
++ xi0.net1 = 8.9999992e-01   
++ xi0.net2 = 3.1669169e-02   
++ xi1.net1 = 8.9999647e-01   
++ xi1.net2 = 8.9999294e-01   
+***   END: Saved Operating Point ***                     

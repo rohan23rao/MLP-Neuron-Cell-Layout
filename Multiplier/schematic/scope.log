@@ -1,0 +1,401 @@
+Mdi:ArrangeIcons
+wm geometry . 900x785+950+24
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+wm geometry . 960x1098+950+24
+ScopeSigMgr:loadpffile /filespace/t/tshih7/ece555/ECE555/Adder_3_bit/adder_3_bit_test.tr0 1 openonly
+# PF:1
+wm geometry .sigmgr._PF:1 290x358+960+600
+pf:read PF:1 v(a<0>) v(a<1>) v(a<2>) v(b<0>) v(b<1>) v(b<2>) v(cout) v(s<0>) v(s<1>) v(s<2>)
+# WF:1:1 WF:1:2 WF:1:3 WF:1:4 WF:1:5 WF:1:6 WF:1:7 WF:1:8 WF:1:9 WF:1:10
+Graph addsignal {WF:1:1 WF:1:2 WF:1:3 WF:1:4 WF:1:5 WF:1:6 WF:1:7 WF:1:8 WF:1:9 WF:1:10} -region {new new new new new new new new new new} -yview {real(y) real(y) real(y) real(y) real(y) real(y) real(y) real(y) real(y) real(y)} -xview {real(x) real(x) real(x) real(x) real(x) real(x) real(x) real(x) real(x) real(x)} -tracehi {2 2 2 2 2 2 2 2 2 2}
+# Signal0 Signal1 Signal2 Signal3 Signal4 Signal5 Signal6 Signal7 Signal8 Signal9
+wm geometry .sigmgr._PF:1 290x358+948+592
+wm geometry .sigmgr._PF:1 290x358+946+593
+wm geometry .sigmgr._PF:1 290x358+943+594
+wm geometry .sigmgr._PF:1 290x358+938+594
+wm geometry .sigmgr._PF:1 290x358+932+594
+wm geometry .sigmgr._PF:1 290x358+918+594
+wm geometry .sigmgr._PF:1 290x358+897+592
+wm geometry .sigmgr._PF:1 290x358+841+587
+wm geometry .sigmgr._PF:1 290x358+795+583
+wm geometry .sigmgr._PF:1 290x358+756+581
+wm geometry .sigmgr._PF:1 290x358+723+581
+wm geometry .sigmgr._PF:1 290x358+703+581
+wm geometry .sigmgr._PF:1 290x358+689+581
+wm geometry .sigmgr._PF:1 290x358+674+581
+wm geometry .sigmgr._PF:1 290x358+653+581
+wm geometry .sigmgr._PF:1 290x358+627+581
+wm geometry .sigmgr._PF:1 290x358+598+582
+wm geometry .sigmgr._PF:1 290x358+566+589
+wm geometry .sigmgr._PF:1 290x358+555+589
+wm geometry .sigmgr._PF:1 290x358+550+590
+wm geometry .sigmgr._PF:1 290x358+549+590
+wm geometry .sigmgr._PF:1 290x358+548+590
+Mdi:Resize 710 966
+Mdi:Move 5 5
+Graph:Select Graph0
+Graph axisconfig {AxisX(0) AxisY(2,0)} -range {{26.565p 1.0266n exact} {1.0 -0.050000000000001 exact}}
+wm geometry .sigmgr 467x236+1425+147
+wm geometry .sigmgr 467x236+1408+151
+wm geometry .sigmgr 467x236+1377+154
+wm geometry .sigmgr 467x236+1333+158
+wm geometry .sigmgr 467x236+1277+160
+wm geometry .sigmgr 467x236+1207+160
+wm geometry .sigmgr 467x236+1125+160
+wm geometry .sigmgr 467x236+1037+160
+wm geometry .sigmgr 467x236+951+162
+wm geometry .sigmgr 467x236+873+162
+wm geometry .sigmgr 467x236+811+170
+wm geometry .sigmgr 467x236+763+178
+wm geometry .sigmgr 467x236+723+186
+wm geometry .sigmgr 467x236+694+194
+wm geometry .sigmgr 467x236+682+199
+wm geometry .sigmgr 467x236+677+202
+wm geometry .sigmgr 467x236+671+206
+wm geometry .sigmgr 467x236+667+208
+wm geometry .sigmgr 467x236+665+210
+wm geometry .sigmgr 467x236+663+212
+wm geometry .sigmgr 467x236+662+213
+wm geometry .sigmgr 467x236+661+214
+wm geometry .sigmgr 467x236+660+214
+wm geometry .sigmgr 467x236+660+215
+wm geometry .sigmgr 467x236+659+215
+wm geometry .sigmgr 467x236+658+216
+wm geometry .sigmgr 467x236+656+216
+wm geometry .sigmgr 467x236+652+213
+wm geometry .sigmgr 467x236+647+210
+wm geometry .sigmgr 467x236+640+205
+wm geometry .sigmgr 467x236+628+198
+wm geometry .sigmgr 467x236+621+195
+wm geometry .sigmgr 467x236+611+190
+wm geometry .sigmgr 467x236+597+185
+wm geometry .sigmgr 467x236+576+180
+wm geometry .sigmgr 467x236+554+176
+wm geometry .sigmgr 467x236+532+174
+wm geometry .sigmgr 467x236+515+173
+wm geometry .sigmgr 467x236+504+173
+wm geometry .sigmgr 467x236+495+172
+wm geometry .sigmgr 467x236+491+172
+wm geometry .sigmgr 467x236+488+172
+wm geometry .sigmgr 467x236+485+172
+wm geometry .sigmgr 467x236+483+172
+wm geometry .sigmgr 467x236+480+173
+wm geometry .sigmgr 467x236+475+174
+wm geometry .sigmgr 467x236+471+175
+wm geometry .sigmgr 467x236+466+176
+wm geometry .sigmgr 467x236+462+177
+wm geometry .sigmgr 467x236+460+177
+wm geometry .sigmgr 467x236+459+177
+wm geometry .sigmgr 467x236+458+177
+wm geometry .sigmgr 467x236+457+177
+Graph:DSel
+ScopeSigMgr:loadpffile /filespace/t/tshih7/ece555/ECE555/Adder_3_bit/adder_3_bit_test.tr0 1 openonly
+# PF:2
+wm geometry .sigmgr._PF:2 290x358+990+630
+ScopeSigMgr:Unload 0 {{(1) adder_3_bit_test.tr0}}
+GrXY:NewGraph
+# Graph1
+pf:read PF:2 v(s<0>) v(s<1>) v(s<2>) v(a<0>) v(a<1>) v(a<2>) v(b<0>) v(b<1>) v(b<2>) v(cin) v(cout)
+# WF:2:1 WF:2:2 WF:2:3 WF:2:4 WF:2:5 WF:2:6 WF:2:7 WF:2:8 WF:2:9 WF:2:10 WF:2:11
+Graph addsignal {WF:2:1 WF:2:2 WF:2:3 WF:2:4 WF:2:5 WF:2:6 WF:2:7 WF:2:8 WF:2:9 WF:2:10 WF:2:11} -region {new new new new new new new new new new new} -yview {real(y) real(y) real(y) real(y) real(y) real(y) real(y) real(y) real(y) real(y) real(y)} -xview {real(x) real(x) real(x) real(x) real(x) real(x) real(x) real(x) real(x) real(x) real(x)} -tracehi {2 2 2 2 2 2 2 2 2 2 2}
+# Signal0 Signal1 Signal2 Signal3 Signal4 Signal5 Signal6 Signal7 Signal8 Signal9 Signal10
+ScopeSigMgr:Unload 0 {{(2) adder_3_bit_test.tr0}}
+Mdi:Resize 836 967
+Mdi:Move 5 5
+wm geometry .sigmgr._PF:2 290x358+979+622
+wm geometry .sigmgr._PF:2 290x358+977+622
+wm geometry .sigmgr._PF:2 290x358+973+622
+wm geometry .sigmgr._PF:2 290x358+968+623
+wm geometry .sigmgr._PF:2 290x358+960+623
+wm geometry .sigmgr._PF:2 290x358+948+623
+wm geometry .sigmgr._PF:2 290x358+927+623
+wm geometry .sigmgr._PF:2 290x358+893+623
+wm geometry .sigmgr._PF:2 290x358+872+623
+wm geometry .sigmgr._PF:2 290x358+853+621
+wm geometry .sigmgr._PF:2 290x358+828+621
+wm geometry .sigmgr._PF:2 290x358+800+621
+wm geometry .sigmgr._PF:2 290x358+770+619
+wm geometry .sigmgr._PF:2 290x358+742+616
+wm geometry .sigmgr._PF:2 290x358+712+612
+wm geometry .sigmgr._PF:2 290x358+679+605
+wm geometry .sigmgr._PF:2 290x358+650+602
+wm geometry .sigmgr._PF:2 290x358+624+595
+wm geometry .sigmgr._PF:2 290x358+605+589
+wm geometry .sigmgr._PF:2 290x358+585+582
+wm geometry .sigmgr._PF:2 290x358+572+578
+wm geometry .sigmgr._PF:2 290x358+564+576
+wm geometry .sigmgr._PF:2 290x358+560+574
+wm geometry .sigmgr._PF:2 290x358+559+574
+wm geometry .sigmgr._PF:2 290x358+558+574
+wm geometry .sigmgr._PF:2 290x358+557+573
+wm geometry .sigmgr._PF:2 290x358+554+570
+wm geometry .sigmgr._PF:2 290x358+549+568
+wm geometry .sigmgr._PF:2 290x358+543+565
+wm geometry .sigmgr._PF:2 290x358+539+564
+wm geometry .sigmgr._PF:2 290x358+535+562
+wm geometry .sigmgr._PF:2 290x358+534+562
+wm geometry .sigmgr._PF:2 290x358+534+561
+wm geometry .sigmgr._PF:2 290x358+534+560
+wm geometry .sigmgr._PF:2 290x358+539+557
+ScopeSigMgr:Unload 0 {{(2) adder_3_bit_test.tr0}}
+ScopeSigMgr:loadpffile /filespace/t/tshih7/ece555/ECE555/Adder_3_bit/adder_3_bit_test.tr0 1 openonly
+# PF:3
+wm geometry .sigmgr._PF:3 290x358+960+600
+GrXY:NewGraph
+# Graph2
+pf:read PF:3 v(a<0>) v(a<1>) v(a<2>) v(b<0>) v(b<1>) v(b<2>) v(cin) v(cout) v(s<0>) v(s<1>) v(s<2>)
+# WF:3:1 WF:3:2 WF:3:3 WF:3:4 WF:3:5 WF:3:6 WF:3:7 WF:3:8 WF:3:9 WF:3:10 WF:3:11
+Graph addsignal {WF:3:1 WF:3:2 WF:3:3 WF:3:4 WF:3:5 WF:3:6 WF:3:7 WF:3:8 WF:3:9 WF:3:10 WF:3:11} -region {new new new new new new new new new new new} -yview {real(y) real(y) real(y) real(y) real(y) real(y) real(y) real(y) real(y) real(y) real(y)} -xview {real(x) real(x) real(x) real(x) real(x) real(x) real(x) real(x) real(x) real(x) real(x)} -tracehi {2 2 2 2 2 2 2 2 2 2 2}
+# Signal0 Signal1 Signal2 Signal3 Signal4 Signal5 Signal6 Signal7 Signal8 Signal9 Signal10
+wm geometry .sigmgr._PF:3 290x358+948+594
+wm geometry .sigmgr._PF:3 290x358+945+595
+wm geometry .sigmgr._PF:3 290x358+939+595
+wm geometry .sigmgr._PF:3 290x358+921+592
+wm geometry .sigmgr._PF:3 290x358+889+583
+wm geometry .sigmgr._PF:3 290x358+843+573
+wm geometry .sigmgr._PF:3 290x358+791+561
+wm geometry .sigmgr._PF:3 290x358+737+551
+wm geometry .sigmgr._PF:3 290x358+687+541
+wm geometry .sigmgr._PF:3 290x358+641+531
+wm geometry .sigmgr._PF:3 290x358+577+517
+wm geometry .sigmgr._PF:3 290x358+544+510
+wm geometry .sigmgr._PF:3 290x358+518+506
+wm geometry .sigmgr._PF:3 290x358+505+504
+wm geometry .sigmgr._PF:3 290x358+501+503
+wm geometry .sigmgr._PF:3 290x358+499+503
+wm geometry .sigmgr._PF:3 290x358+503+501
+Mdi:Resize 789 883
+Mdi:Move 5 5
+ScopeSigMgr:loadpffile /filespace/t/tshih7/ece555/ECE555/Adder_3_bit/adder_3_bit_test.tr0 1 openonly
+# PF:4
+wm geometry .sigmgr._PF:4 290x358+990+630
+GrXY:NewGraph
+# Graph3
+pf:read PF:4 v(a<0>) v(a<1>) v(a<2>) v(b<0>) v(b<1>) v(b<2>) v(cin) v(cout) v(s<0>) v(s<1>) v(s<2>)
+# WF:4:1 WF:4:2 WF:4:3 WF:4:4 WF:4:5 WF:4:6 WF:4:7 WF:4:8 WF:4:9 WF:4:10 WF:4:11
+Graph addsignal {WF:4:1 WF:4:2 WF:4:3 WF:4:4 WF:4:5 WF:4:6 WF:4:7 WF:4:8 WF:4:9 WF:4:10 WF:4:11} -region {new new new new new new new new new new new} -yview {real(y) real(y) real(y) real(y) real(y) real(y) real(y) real(y) real(y) real(y) real(y)} -xview {real(x) real(x) real(x) real(x) real(x) real(x) real(x) real(x) real(x) real(x) real(x)} -tracehi {2 2 2 2 2 2 2 2 2 2 2}
+# Signal0 Signal1 Signal2 Signal3 Signal4 Signal5 Signal6 Signal7 Signal8 Signal9 Signal10
+ScopeSigMgr:Unload 0 {{(2) adder_3_bit_test.tr0}}
+Mdi:Resize 909 968
+Mdi:Move 5 5
+wm geometry .sigmgr._PF:4 290x358+978+622
+wm geometry .sigmgr._PF:4 290x358+971+622
+wm geometry .sigmgr._PF:4 290x358+951+618
+wm geometry .sigmgr._PF:4 290x358+892+606
+wm geometry .sigmgr._PF:4 290x358+834+596
+wm geometry .sigmgr._PF:4 290x358+770+580
+wm geometry .sigmgr._PF:4 290x358+706+564
+wm geometry .sigmgr._PF:4 290x358+648+550
+wm geometry .sigmgr._PF:4 290x358+602+534
+wm geometry .sigmgr._PF:4 290x358+560+518
+wm geometry .sigmgr._PF:4 290x358+532+505
+wm geometry .sigmgr._PF:4 290x358+525+500
+wm geometry .sigmgr._PF:4 290x358+523+498
+wm geometry .sigmgr._PF:4 290x358+522+496
+wm geometry .sigmgr._PF:4 290x358+521+494
+wm geometry .sigmgr._PF:4 290x358+520+492
+wm geometry .sigmgr._PF:4 290x358+519+492
+wm geometry .sigmgr._PF:4 290x358+518+490
+wm geometry .sigmgr._PF:4 290x358+518+489
+wm geometry .sigmgr._PF:4 290x358+517+488
+wm geometry .sigmgr._PF:4 290x358+517+486
+wm geometry .sigmgr._PF:4 290x358+517+485
+wm geometry .sigmgr._PF:4 290x358+516+484
+wm geometry .sigmgr._PF:4 290x358+515+482
+wm geometry .sigmgr._PF:4 290x358+515+478
+wm geometry .sigmgr._PF:4 290x358+515+475
+Graph:Select Graph3
+Graph axisconfig {AxisX(0) AxisY(2,0)} -range {{33.062p 1.0331n exact} {0.86043994292127 -0.18956005707873 exact}}
+Graph axisconfig {AxisX(0) AxisY(0,0) AxisY(1,0) AxisY(10,0) AxisY(2,0) AxisY(3,0) AxisY(4,0) AxisY(5,0) AxisY(6,0) AxisY(7,0) AxisY(8,0) AxisY(9,0)} -range {all all all all all all all all all all all all} -zoomed {0 0 0 0 0 0 0 0 0 0 0 0}
+ScopeSigMgr:loadpffile /filespace/t/tshih7/ece555/ECE555/Adder_3_bit/adder_3_bit_test.tr0 1 openonly
+# PF:5
+wm geometry .sigmgr._PF:5 290x358+1020+660
+GrXY:NewGraph
+# Graph4
+pf:read PF:5 v(a<0>) v(a<1>) v(a<2>) v(b<0>) v(b<1>) v(b<2>) v(cin) v(cout) v(s<0>) v(s<1>) v(s<2>)
+# WF:5:1 WF:5:2 WF:5:3 WF:5:4 WF:5:5 WF:5:6 WF:5:7 WF:5:8 WF:5:9 WF:5:10 WF:5:11
+Graph addsignal {WF:5:1 WF:5:2 WF:5:3 WF:5:4 WF:5:5 WF:5:6 WF:5:7 WF:5:8 WF:5:9 WF:5:10 WF:5:11} -region {new new new new new new new new new new new} -yview {real(y) real(y) real(y) real(y) real(y) real(y) real(y) real(y) real(y) real(y) real(y)} -xview {real(x) real(x) real(x) real(x) real(x) real(x) real(x) real(x) real(x) real(x) real(x)} -tracehi {2 2 2 2 2 2 2 2 2 2 2}
+# Signal0 Signal1 Signal2 Signal3 Signal4 Signal5 Signal6 Signal7 Signal8 Signal9 Signal10
+wm geometry .sigmgr._PF:5 290x358+1009+652
+wm geometry .sigmgr._PF:5 290x358+1008+652
+wm geometry .sigmgr._PF:5 290x358+1007+652
+wm geometry .sigmgr._PF:5 290x358+1002+652
+wm geometry .sigmgr._PF:5 290x358+995+651
+wm geometry .sigmgr._PF:5 290x358+988+649
+wm geometry .sigmgr._PF:5 290x358+983+649
+wm geometry .sigmgr._PF:5 290x358+979+648
+wm geometry .sigmgr._PF:5 290x358+976+647
+wm geometry .sigmgr._PF:5 290x358+974+647
+wm geometry .sigmgr._PF:5 290x358+973+647
+wm geometry .sigmgr._PF:5 290x358+971+646
+wm geometry .sigmgr._PF:5 290x358+962+645
+wm geometry .sigmgr._PF:5 290x358+952+643
+wm geometry .sigmgr._PF:5 290x358+936+640
+wm geometry .sigmgr._PF:5 290x358+914+635
+wm geometry .sigmgr._PF:5 290x358+880+628
+wm geometry .sigmgr._PF:5 290x358+834+618
+wm geometry .sigmgr._PF:5 290x358+776+604
+wm geometry .sigmgr._PF:5 290x358+716+592
+wm geometry .sigmgr._PF:5 290x358+664+582
+wm geometry .sigmgr._PF:5 290x358+625+576
+wm geometry .sigmgr._PF:5 290x358+593+566
+wm geometry .sigmgr._PF:5 290x358+583+563
+wm geometry .sigmgr._PF:5 290x358+576+559
+wm geometry .sigmgr._PF:5 290x358+571+557
+wm geometry .sigmgr._PF:5 290x358+570+556
+wm geometry .sigmgr._PF:5 290x358+569+556
+wm geometry .sigmgr._PF:5 290x358+572+554
+Mdi:Resize 854 880
+Mdi:Move 5 5
+ScopeSigMgr:loadpffile /filespace/t/tshih7/ece555/ECE555/Adder_3_bit/adder_3_bit_test.tr0 1 openonly
+# PF:6
+wm geometry .sigmgr._PF:6 290x358+1050+690
+GrXY:NewGraph
+# Graph5
+pf:read PF:6 v(a<0>) v(a<1>) v(a<2>) v(b<0>) v(b<1>) v(b<2>) v(cin) v(cout) v(s<0>) v(s<1>) v(s<2>)
+# WF:6:1 WF:6:2 WF:6:3 WF:6:4 WF:6:5 WF:6:6 WF:6:7 WF:6:8 WF:6:9 WF:6:10 WF:6:11
+Graph addsignal {WF:6:1 WF:6:2 WF:6:3 WF:6:4 WF:6:5 WF:6:6 WF:6:7 WF:6:8 WF:6:9 WF:6:10 WF:6:11} -region {new new new new new new new new new new new} -yview {real(y) real(y) real(y) real(y) real(y) real(y) real(y) real(y) real(y) real(y) real(y)} -xview {real(x) real(x) real(x) real(x) real(x) real(x) real(x) real(x) real(x) real(x) real(x)} -tracehi {2 2 2 2 2 2 2 2 2 2 2}
+# Signal0 Signal1 Signal2 Signal3 Signal4 Signal5 Signal6 Signal7 Signal8 Signal9 Signal10
+Mdi:Resize 837 887
+Mdi:Move 5 5
+wm geometry .sigmgr._PF:6 290x358+1039+682
+wm geometry .sigmgr._PF:6 290x358+1037+682
+wm geometry .sigmgr._PF:6 290x358+1023+682
+wm geometry .sigmgr._PF:6 290x358+1012+684
+wm geometry .sigmgr._PF:6 290x358+992+684
+wm geometry .sigmgr._PF:6 290x358+956+682
+wm geometry .sigmgr._PF:6 290x358+904+680
+wm geometry .sigmgr._PF:6 290x358+850+674
+wm geometry .sigmgr._PF:6 290x358+794+666
+wm geometry .sigmgr._PF:6 290x358+744+662
+wm geometry .sigmgr._PF:6 290x358+694+656
+wm geometry .sigmgr._PF:6 290x358+654+652
+wm geometry .sigmgr._PF:6 290x358+621+650
+wm geometry .sigmgr._PF:6 290x358+594+646
+wm geometry .sigmgr._PF:6 290x358+561+643
+wm geometry .sigmgr._PF:6 290x358+548+643
+wm geometry .sigmgr._PF:6 290x358+537+642
+wm geometry .sigmgr._PF:6 290x358+531+642
+wm geometry .sigmgr._PF:6 290x358+526+641
+wm geometry .sigmgr._PF:6 290x358+522+641
+wm geometry .sigmgr._PF:6 290x358+516+640
+wm geometry .sigmgr._PF:6 290x358+510+640
+wm geometry .sigmgr._PF:6 290x358+505+640
+wm geometry .sigmgr._PF:6 290x358+501+640
+wm geometry .sigmgr._PF:6 290x358+499+640
+wm geometry .sigmgr._PF:6 290x358+497+639
+wm geometry .sigmgr._PF:6 290x358+490+635
+wm geometry .sigmgr._PF:6 290x358+482+632
+wm geometry .sigmgr._PF:6 290x358+476+631
+wm geometry .sigmgr._PF:6 290x358+470+630
+wm geometry .sigmgr._PF:6 290x358+464+630
+wm geometry .sigmgr._PF:6 290x358+460+630
+wm geometry .sigmgr._PF:6 290x358+458+630
+wm geometry .sigmgr._PF:6 290x358+457+630
+ScopeSigMgr:loadpffile /filespace/t/tshih7/ece555/ECE555/Adder_3_bit/adder_3_bit_test.tr0 1 openonly
+# PF:7
+wm geometry .sigmgr._PF:7 290x358+1080+720
+GrXY:NewGraph
+# Graph6
+pf:read PF:7 v(a<0>) v(a<1>) v(a<2>) v(b<0>) v(b<1>) v(b<2>) v(cin) v(cout) v(s<0>) v(s<1>) v(s<2>)
+# WF:7:1 WF:7:2 WF:7:3 WF:7:4 WF:7:5 WF:7:6 WF:7:7 WF:7:8 WF:7:9 WF:7:10 WF:7:11
+Graph addsignal {WF:7:1 WF:7:2 WF:7:3 WF:7:4 WF:7:5 WF:7:6 WF:7:7 WF:7:8 WF:7:9 WF:7:10 WF:7:11} -region {new new new new new new new new new new new} -yview {real(y) real(y) real(y) real(y) real(y) real(y) real(y) real(y) real(y) real(y) real(y)} -xview {real(x) real(x) real(x) real(x) real(x) real(x) real(x) real(x) real(x) real(x) real(x)} -tracehi {2 2 2 2 2 2 2 2 2 2 2}
+# Signal0 Signal1 Signal2 Signal3 Signal4 Signal5 Signal6 Signal7 Signal8 Signal9 Signal10
+Mdi:Resize 808 926
+Mdi:Move 5 5
+wm geometry .sigmgr._PF:7 290x358+1069+712
+wm geometry .sigmgr._PF:7 290x358+1066+713
+wm geometry .sigmgr._PF:7 290x358+1060+713
+wm geometry .sigmgr._PF:7 290x358+1049+713
+wm geometry .sigmgr._PF:7 290x358+1028+711
+wm geometry .sigmgr._PF:7 290x358+989+705
+wm geometry .sigmgr._PF:7 290x358+929+695
+wm geometry .sigmgr._PF:7 290x358+863+683
+wm geometry .sigmgr._PF:7 290x358+791+671
+wm geometry .sigmgr._PF:7 290x358+723+661
+wm geometry .sigmgr._PF:7 290x358+663+649
+wm geometry .sigmgr._PF:7 290x358+615+641
+wm geometry .sigmgr._PF:7 290x358+581+635
+wm geometry .sigmgr._PF:7 290x358+562+632
+wm geometry .sigmgr._PF:7 290x358+547+629
+wm geometry .sigmgr._PF:7 290x358+544+628
+wm geometry .sigmgr._PF:7 290x358+542+628
+wm geometry .sigmgr._PF:7 290x358+541+627
+wm geometry .sigmgr._PF:7 290x358+540+627
+wm geometry .sigmgr._PF:7 290x358+540+626
+wm geometry .sigmgr._PF:7 290x358+538+626
+wm geometry .sigmgr._PF:7 290x358+535+624
+wm geometry .sigmgr._PF:7 290x358+530+622
+wm geometry .sigmgr._PF:7 290x358+523+620
+wm geometry .sigmgr._PF:7 290x358+512+617
+wm geometry .sigmgr._PF:7 290x358+503+615
+wm geometry .sigmgr._PF:7 290x358+496+614
+wm geometry .sigmgr._PF:7 290x358+493+614
+wm geometry .sigmgr._PF:7 290x358+492+614
+wm geometry .sigmgr._PF:7 290x358+490+614
+wm geometry .sigmgr._PF:7 290x358+489+614
+wm geometry .sigmgr._PF:7 290x358+487+614
+wm geometry .sigmgr._PF:7 290x358+485+614
+wm geometry .sigmgr._PF:7 290x358+480+615
+wm geometry .sigmgr._PF:7 290x358+471+617
+wm geometry .sigmgr._PF:7 290x358+460+620
+wm geometry .sigmgr._PF:7 290x358+453+622
+wm geometry .sigmgr._PF:7 290x358+447+624
+wm geometry .sigmgr._PF:7 290x358+446+624
+Graph:Select Graph6
+Graph:DSel
+Graph itemselect Signal0 add
+# Signal0
+Graph sigconfig Signal0 -region 8 -rgnindex 1
+Graph:DSel
+ScopeSigMgr:Unload 0 {{(5) adder_3_bit_test.tr0}}
+ScopeSigMgr:Unload 0 {{(3) adder_3_bit_test.tr0}}
+ScopeSigMgr:Unload 0 {{(2) adder_3_bit_test.tr0}}
+ScopeSigMgr:Unload 0 {{(1) adder_3_bit_test.tr0}}
+Graph:DSel
+Graph axisconfig {AxisY(9,0) AxisX(0)} -range {{0.45270627183192 1.1763510122402} {77.355p 193.55p}}
+Graph:DSel
+Graph axisconfig {AxisY(9,0) AxisX(0)} -range {{1.1664119880228 0.34677355756042} {95.759534631p 114.140032773p}}
+Graph axisconfig {AxisX(0) AxisY(0,0) AxisY(1,0) AxisY(2,0) AxisY(3,0) AxisY(4,0) AxisY(5,0) AxisY(6,0) AxisY(7,0) AxisY(8,0) AxisY(9,0)} -range {all all all all all all all all all all all} -zoomed {0 0 0 0 0 0 0 0 0 0 0}
+Graph:DSel
+Graph:DSel
+Graph:Select Graph6
+Graph axisconfig {AxisY(7,0) AxisX(0)} -range {{0.94099945884059 -0.064241822233474} {324.84p 475.75p}}
+Graph axisconfig {AxisX(0) AxisY(0,0) AxisY(1,0) AxisY(2,0) AxisY(3,0) AxisY(4,0) AxisY(5,0) AxisY(6,0) AxisY(7,0) AxisY(8,0) AxisY(9,0)} -range {all all all all all all all all all all all} -zoomed {0 0 0 0 0 0 0 0 0 0 0}
+Graph:DSel
+wm geometry .sigmgr._PF:7 290x358+456+669

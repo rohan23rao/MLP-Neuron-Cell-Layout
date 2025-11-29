@@ -1,0 +1,16 @@
+#
+# Edit Lock-Stake file. CAUTION: Please do not change.
+#
+# Information about current Edit Lock Owner.
+#
+LockStakeVersion               1.1
+LoginName                      ttsai33
+HostName                       tux-109.cae.wisc.edu
+ProcessIdentifier              3189285
+ProcessCreationTime_UTC        1732775669
+ProcessCreationTime_Readable   Thu Nov 28 00:34:29 2024 CST
+AppIdentifier                  /cae/apps/data/cadence-2023/installs/IC618/tools.lnx86/dfII/bin/64bit/virtuoso
+OSType                         lnx86
+ReasonForPlacingEditLock       
+FilePathUsedToEditLock         /filespace/t/ttsai33/ece555_2/ECE_project/OR/physConfig/physExpand.cfg
+TimeEditLocked                 Thu Nov 28 01:22:08 2024 CST

@@ -1,0 +1,200 @@
+ScopeSigMgr:loadpffile /filespace/t/tshih7/ece555/ECE555/AND2/test.tr0 1 openonly
+# PF:1
+wm geometry .sigmgr._PF:1 290x358+960+600
+pf:read PF:1 v(a) v(b) v(c) v(d)
+# WF:1:1 WF:1:2 WF:1:3 WF:1:4
+Graph addsignal {WF:1:1 WF:1:2 WF:1:3 WF:1:4} -region {new new new new} -yview {real(y) real(y) real(y) real(y)} -xview {real(x) real(x) real(x) real(x)} -tracehi {2 2 2 2}
+# Signal0 Signal1 Signal2 Signal3
+pf:read PF:1 v(in<1>) v(in<2>)
+# WF:1:5 WF:1:6
+Graph addsignal {WF:1:5 WF:1:6} -region {new new} -yview {real(y) real(y)} -xview {real(x) real(x)} -tracehi {2 2}
+# Signal4 Signal5
+Mdi:Resize 490 641
+Mdi:Move 5 5
+Mdi:ArrangeIcons
+wm geometry . 903x786+-10+77
+Mdi:ArrangeIcons
+wm geometry . 940x802+-10+77
+Mdi:ArrangeIcons
+wm geometry . 1002x824+-10+77
+Mdi:ArrangeIcons
+wm geometry . 1074x846+-10+77
+Mdi:ArrangeIcons
+wm geometry . 1142x872+-10+77
+Mdi:ArrangeIcons
+wm geometry . 1228x904+-10+77
+Mdi:ArrangeIcons
+wm geometry . 1292x930+-10+77
+Mdi:ArrangeIcons
+wm geometry . 1370x958+-10+77
+Mdi:ArrangeIcons
+wm geometry . 1446x980+-10+77
+Mdi:ArrangeIcons
+wm geometry . 1516x996+-10+77
+Mdi:ArrangeIcons
+wm geometry . 1578x1006+-10+77
+Mdi:ArrangeIcons
+wm geometry . 1624x1014+-10+77
+Mdi:ArrangeIcons
+wm geometry . 1658x1020+-10+77
+Mdi:ArrangeIcons
+wm geometry . 1682x1023+-10+77
+Mdi:ArrangeIcons
+wm geometry . 1702x1026+-10+77
+Mdi:ArrangeIcons
+wm geometry . 1720x1029+-10+77
+Mdi:ArrangeIcons
+wm geometry . 1728x1030+-10+77
+Mdi:ArrangeIcons
+wm geometry . 1731x1030+-10+77
+Mdi:ArrangeIcons
+wm geometry . 1730x1030+-10+77
+Mdi:ArrangeIcons
+wm geometry . 1729x1030+-10+77
+Mdi:ArrangeIcons
+wm geometry . 1729x1029+-10+77
+Mdi:ArrangeIcons
+wm geometry . 1729x1028+-10+77
+Mdi:Resize 1254 846
+Mdi:Move 5 5
+Graph:DSel
+Graph:Select Graph0
+Graph:DSel
+Graph axisconfig {AxisY(4,0) AxisX(0)} -range {{0.037895175469859 1.0369079763917} {4.33791n -432.622p}}
+Graph axisconfig {AxisX(0) AxisY(0,0) AxisY(1,0) AxisY(2,0) AxisY(3,0) AxisY(4,0) AxisY(5,0)} -range {all all all all all all all} -zoomed {0 0 0 0 0 0 0}
+Graph:DSel
+Graph:DSel
+Graph itemselect Signal0 add
+# Signal0
+Graph sigconfig Signal0 -region 1 -rgnindex 1
+Graph:DSel
+Graph itemselect Signal2 add
+# Signal2
+Graph sigconfig {Signal2 Signal0} -region {0 0} -rgnindex {1 2}
+Graph:DSel
+Graph itemselect Signal3 add
+# Signal3
+Graph sigconfig {Signal3 Signal2 Signal0} -region {0 0 0} -rgnindex {1 2 3}
+Graph:DSel
+Graph axisconfig {AxisY(1,0) AxisX(0)} -range {{-0.033046219339399 0.94971311793609} {4.20721n -955.42p}}
+Graph:DSel
+Graph axisconfig {AxisY(0,0) AxisX(0)} -range {{307.17477237061n 307.18049409613n} {-88.3156p 471.825p}}
+Graph:DSel
+Graph axisconfig {AxisY(0,0) AxisX(0)} -range {{307.17317001044n 307.18277244332n} {-2.67001p 48.3028p}}
+Graph:DSel
+Graph axisconfig {AxisY(0,0) AxisX(0)} -range {{307.17350112881n 307.18482537724n} {-1.8354p 15.529p}}
+Graph axisconfig {AxisX(0) AxisY(0,0) AxisY(1,0) AxisY(2,0)} -range {all all all all} -zoomed {0 0 0 0}
+Graph:DSel
+ScopeSigMgr:loadpffile /filespace/t/tshih7/ece555/ECE555/AND2/test.tr0 1 replace
+# PF:2
+wm geometry .sigmgr 467x236+423+205
+ScopeSigMgr:loadpffile /filespace/t/tshih7/ece555/ECE555/AND2/test.tr0 1 replace
+# PF:2
+pf:read PF:2 v(a) v(b) v(c) v(d) v(in1) v(in2)
+# WF:2:1 WF:2:2 WF:2:3 WF:2:4 WF:2:5 WF:2:6
+Graph addsignal {WF:2:1 WF:2:2 WF:2:3 WF:2:4 WF:2:5 WF:2:6} -region {new new new new new new} -yview {real(y) real(y) real(y) real(y) real(y) real(y)} -xview {real(x) real(x) real(x) real(x) real(x) real(x)} -tracehi {2 2 2 2 2 2}
+# Signal10 Signal11 Signal12 Signal13 Signal14 Signal15
+wm geometry .sigmgr 467x236+423+205
+wm geometry .sigmgr._PF:1 290x358+960+600
+Graph:Select Graph0
+Graph:DSel
+Graph itemselect Signal10 add
+# Signal10
+Graph itemselect Signal10 add
+# Signal10
+Graph delsignal selected
+Graph:DSel
+Graph itemselect Signal11 add
+# Signal11
+Graph delsignal selected
+Graph:DSel
+Graph itemselect Signal12 add
+# Signal12
+Graph delsignal selected
+Graph:DSel
+Graph itemselect Signal13 add
+# Signal13
+Graph delsignal selected
+Graph:DSel
+Graph:DSel
+Graph:Select Graph0
+Graph:DSel
+Graph axisconfig {AxisY(0,0) AxisX(0)} -range {{-0.29557920369633 1.0355166641768} {4.50579n -1.05653n}}
+Graph:DSel
+GrMeas:Falltime Graph0 Signal9 {0.1 0.5 0.9} default default xyrangeAll
+# M:0
+Graph:DSel
+Graph:Select Graph0
+Graph axisconfig {AxisY(0,0) AxisX(0)} -range {{1.2895939631346 -0.77658469744465} {560.32p 1.41851n}}
+Graph axisconfig {AxisX(0) AxisY(0,0) AxisY(1,0) AxisY(2,0)} -range {all all all all} -zoomed {0 0 0 0}
+Graph:DSel
+Graph axisconfig {AxisY(0,0) AxisX(0)} -range {{-0.16975422116106 0.98916009166381} {3.77474n -738.683p}}
+GrMeas:Risetime Graph0 Signal9 {0.1 0.5 0.9} default default xyrangeAll
+# M:1
+GrMeas:Risetime Graph0 Signal14 {0.1 0.5 0.9} default default xyrangeAll
+# M:2
+GrMeas:Falltime Graph0 Signal14 {0.1 0.5 0.9} default default xyrangeAll
+# M:3
+Graph axisconfig {AxisX(0) AxisY(0,0) AxisY(1,0) AxisY(2,0)} -range {all all all all} -zoomed {0 0 0 0}
+Graph:DSel
+Graph axisconfig {AxisY(0,0) AxisX(0)} -range {{-0.20286605867034 0.98916009166381} {4.63293n -261.912p}}
+GrMeas:Delay Graph0 Signal9 Signal9 either either default default default default 0.5 0.5 xyrangeAll
+# M:4
+Graph:DSel
+GrMeas:Select Graph0 M:4 6
+GrMeas:MoveText Graph0 M:4 6 69.0 -22.0
+GrMeas:MoveText Graph0 M:4 6 66.0 -2.0
+Graph:DSel
+GrMeas:Select Graph0 M:0 4
+Graph:DSel
+GrMeas:Select Graph0 M:4 6
+GrMeas:MoveText Graph0 M:4 6 67.0 -2.0
+Graph delsignal selected
+Graph:DSel
+GrMeas:Select Graph0 M:1 4
+GrMeas:MoveText Graph0 M:1 4 72.0 15.0
+Graph:DSel
+GrMeas:Select Graph0 M:0 4
+GrMeas:MoveText Graph0 M:0 4 51.0 9.0
+Graph:Select Graph0
+Graph:DSel
+Graph itemselect Signal9 add
+# Signal9
+Graph sigconfig Signal9 -region 1 -rgnindex 1
+Graph:DSel
+GrMeas:Select Graph0 M:2 6
+Graph delsignal selected
+Graph:DSel
+GrMeas:Select Graph0 M:0 4
+Graph delsignal selected
+Graph:DSel
+GrMeas:Select Graph0 M:3 4
+Graph delsignal selected
+Graph:DSel
+GrMeas:Select Graph0 M:1 4
+Graph delsignal selected
+GrMeas:Delay Graph0 Signal9 Signal14 either either default default default default 0.5 0.5 xyrangeAll
+# M:5
+Graph:DSel
+Graph axisconfig {AxisY(1,0) AxisX(0)} -range {{0.66988926447916 0.26592484686592} {589.742p 1.50514n}}
+Graph axisconfig {AxisX(0) AxisY(0,0) AxisY(1,0) AxisY(2,0)} -range {all all all all} -zoomed {0 0 0 0}
+Graph:DSel
+Graph axisconfig {AxisY(1,0) AxisX(0)} -range {{-0.2175079807696 1.047364212085} {6.12681n -547.974p}}
+Graph:DSel
+Graph axisconfig {AxisY(1,0) AxisX(0)} -range {{-0.85884748165801 1.8033442540883} {640.162p 2.4201n}}
+Graph:DSel
+Graph axisconfig {AxisY(1,0) AxisX(0)} -range {{-0.63368698659489 1.5516942890177} {1.8019333926n 2.1797172111n}}
+GrMeas:Delay Graph0 Signal9 Signal14 either either default default default default 0.5 0.5 xyrangeVisible
+# M:6
+Graph axisconfig {AxisX(0) AxisY(0,0) AxisY(1,0) AxisY(2,0)} -range {all all all all} -zoomed {0 0 0 0}
+Graph:DSel
+Graph axisconfig {AxisY(1,0) AxisX(0)} -range {{-0.23737508327517 1.140077357111} {5.23684n -929.391p}}
+Graph:DSel
+Graph axisconfig {AxisY(1,0) AxisX(0)} -range {{-0.83235801165058 1.816588989092} {377.929p 2.65371n}}
+Graph:DSel
+Graph axisconfig {AxisY(1,0) AxisX(0)} -range {{-0.75288960162831 1.8563231941031} {799.1646733p 2.3008553517n}}
+Graph axisconfig {AxisX(0) AxisY(0,0) AxisY(1,0) AxisY(2,0)} -range {all all all all} -zoomed {0 0 0 0}
+Graph:DSel
+Graph axisconfig {AxisY(1,0) AxisX(0)} -range {{-0.29697639079188 1.1334549896091} {7.17571n -675.113p}}
+Graph:DSel
+Graph axisconfig {AxisY(1,0) AxisX(0)} -range {{-0.87209221666172 1.8430784590994} {-730.793p 4.04599n}}
